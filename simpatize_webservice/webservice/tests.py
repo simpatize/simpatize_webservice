@@ -4,7 +4,4 @@ from django.test import TestCase
 class Tests(TestCase):
 
     def test_should_be_true_anyway(self):
-        self.assertEqual(1,1)
-
-
-
+        self.assertEqual(1,2)
