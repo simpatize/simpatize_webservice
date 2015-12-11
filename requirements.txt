@@ -1,1 +1,20 @@
+#Web framework
 Django==1.8.5
+
+#Database connector
+psycopg2==2.6.1
+
+#Testing tools
+selenium==2.48.0
+behave==1.2.5
+
+#Heroku dependency
+gunicorn==19.3.0
+
+#URL request dependency
+requests==2.6.0
+
+#REST tools
+djangorestframework==3.3.1
+markdown==2.6.5
+django-filter==0.11.0
