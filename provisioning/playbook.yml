@@ -1,3 +1,5 @@
 ---
 - hosts: all
   tasks:
+  - apt: update_cache=yes
+  - apt: name=python3.4 state=present
