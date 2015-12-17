@@ -1,5 +1,8 @@
 ---
 - hosts: all
   tasks:
-  - apt: update_cache=yes
-  - apt: name=python3.4 state=present
+  - apt: pkg={{ item }} state=present update_cache=yes
+    with_items:
+      - python3.4
+      - python3-pip
+      - python-virtualenv

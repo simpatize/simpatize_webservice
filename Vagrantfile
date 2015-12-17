@@ -19,7 +19,7 @@ Vagrant.configure(2) do |config|
 
     simpatize.vm.provider 'virtualbox' do |v|
       v.memory = 2048
-    end    
+    end
   end
 
   # The most common configuration options are documented and commented below.
