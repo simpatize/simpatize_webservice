@@ -1,8 +1,12 @@
 ---
 - hosts: all
   tasks:
-  - apt: pkg={{ item }} state=present update_cache=yes
+  - name: Install packages
+    apt: pkg={{ item }} state=present update_cache=yes
     with_items:
       - python3.4
       - python3-pip
       - python-virtualenv
+
+  - name: Install requirements.txt
+    pip: requirements=/vagrant/requirements.txt executable=pip3
