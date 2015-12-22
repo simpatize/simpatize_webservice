@@ -6,7 +6,10 @@
     with_items:
       - python3.4
       - python3-pip
-      - python-virtualenv
+      - python3.4-venv
 
   - name: Install requirements.txt
     pip: requirements=/vagrant/requirements.txt executable=pip3
+
+  - name: Update virtualenv
+    pip: requirements=/vagrant/requirements.txt virtualenv_command=pyvenv-3.4 virtualenv=/vagrant/venv executable=pip3
