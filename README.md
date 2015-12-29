@@ -9,3 +9,4 @@
 5. *OPTIONAL*: If you are using Mac and never ran virtualbox in your system, you will need to repair your disk (Open 'Disk Utility', select the disk and click on 'Repair Disk Permissions'). See more details on: https://forums.virtualbox.org/viewtopic.php?f=8&t=48224
 4. Execute `vagrant up` from simpatize_webservice folder
 5. Execute `vagrant ssh` to log in the development box
+6. DataBase infos: user, table and password are 'vagrant'
