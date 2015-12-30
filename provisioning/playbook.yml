@@ -19,6 +19,7 @@
       - python3.4
       - python3-pip
       - python3.4-venv
+      - git
 
   - name: Install requirements.txt
     pip: requirements=/vagrant/requirements.txt executable=pip3
