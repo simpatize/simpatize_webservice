@@ -1,7 +1,4 @@
-#Web framework
 Django==1.8.5
-
-#REST tools
-djangorestframework==3.3.1
-markdown==2.6.5
+Markdown==2.6.5
 django-filter==0.11.0
+djangorestframework==3.3.1
