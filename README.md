@@ -11,6 +11,7 @@ Manager: Paver 1.2
 CI: Snap
 *******************
 
+For Macs:
 1. Clone this repository (`git clone https://github.com/simpatize/simpatize_webservice.git`)
 2. Install vagrant (https://www.vagrantup.com/downloads.html)
 3. Install ansible (https://docs.ansible.com/ansible/intro_installation.html)
@@ -20,3 +21,5 @@ CI: Snap
 7. Execute `vagrant provision` from simpatize_webservice folder for provisioning
 8. Execute `vagrant ssh` to log in the development box
 9. DataBase infos: user, table and password are 'vagrant'
+
+For Windows:
