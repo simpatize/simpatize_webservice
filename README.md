@@ -2,6 +2,15 @@
 
 [![Build Status](https://snap-ci.com/simpatize/simpatize_webservice/branch/master/build_image)](https://snap-ci.com/simpatize/simpatize_webservice/branch/master)
 
+*** Tech Stack ***
+Language: Python 3.4
+Framework: Django 1.8, Django-Rest 3.3
+Data Base: Postgres 9.4
+Provisioned: Ansible
+Manager: Paver 1.2
+CI: Snap
+*******************
+
 1. Clone this repository (`git clone https://github.com/simpatize/simpatize_webservice.git`)
 2. Install vagrant (https://www.vagrantup.com/downloads.html)
 3. Install ansible (https://docs.ansible.com/ansible/intro_installation.html)
