@@ -71,3 +71,6 @@
   - name: ensure user has access to database
     postgresql_user: db={{dbname}} name={{dbuser}} password={{dbpassword}} priv=ALL
     become_user: postgres
+
+  - name: Go to vangrant folder
+    shell: echo "cd /vagrant" >> .bash_profile
