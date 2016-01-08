@@ -102,3 +102,12 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# Google Places API key
+
+GOOGLE_PLACES_API_KEY = "AIzaSyAfZcyrKMHxsidSpMsUcwLlOWbLsVZS0W4"
+
+# Coordenadas geográficas padrões, úteis nos casos que não forem passados os parâmetros correspondentes
+
+LATITUDE_RECIFE = "-8.0475622"
+LONGITUDE_RECIFE = "-34.8769643"
