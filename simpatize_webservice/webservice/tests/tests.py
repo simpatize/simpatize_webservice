@@ -16,3 +16,4 @@ class URL_Tests(TestCase):
     def test_if_request_is_empty_should_return_standard_URLForJson(self):
         url_created = URL().create("")
         self.assertEqual(url_created, self.url_from_google)
+
