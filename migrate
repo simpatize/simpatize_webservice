@@ -1,2 +1,0 @@
-python3 manage.py makemigrations simpatize_webservice
-python3 manage.py migrate
