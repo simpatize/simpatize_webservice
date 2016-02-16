@@ -10,6 +10,9 @@ TO-DO
 * django-rest
 
 ## Setup develop environment
+### Development tool
+* PyCharm (https://www.jetbrains.com/pycharm/download/ - ask license to TechOps)
+
 ### Dependencies
 * Virtualbox (https://www.virtualbox.org/wiki/Downloads)
 * Vagrant (https://www.vagrantup.com/downloads.html)
