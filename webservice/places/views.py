@@ -5,5 +5,10 @@ from places.serializers import PlaceSerializer
 
 
 class PlaceList(ListAPIView):
-    queryset = Place.objects.all()  #os caras q a gente espere
-    serializer_class = PlaceSerializer #o q a gente serializa
+    serializer_class = PlaceSerializer
+
+    def get_queryset(self):
+
+        places_type_filter = self.request.query_params.get('type')
+        queryset = Place.objects.filter(place_type=places_type_filter)
+        return queryset
