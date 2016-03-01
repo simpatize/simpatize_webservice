@@ -5,5 +5,5 @@ from places.serializers import PlaceSerializer
 
 
 class PlaceList(ListAPIView):
-    queryset = Place.objects.all()  #os caras q a gente espere
-    serializer_class = PlaceSerializer #o q a gente serializa
+    queryset = Place.objects.all()
+    serializer_class = PlaceSerializer
