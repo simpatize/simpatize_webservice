@@ -1,1 +1,1 @@
-web: uwsgi --ini uwsgi.ini
+web: echo $DATABASE_URL && uwsgi --ini uwsgi.ini
