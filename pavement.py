@@ -14,5 +14,5 @@ def migratedb():
 @task
 @needs('migratedb')
 def test():
-    sh('python manage.py test', cwd='webservice/')
+    sh('python manage.py test --noinput', cwd='webservice/')
 
