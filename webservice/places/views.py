@@ -8,5 +8,8 @@ class PlaceList(ListAPIView):
 
     def get_queryset(self):
         places_type_filter = self.request.query_params.get('type')
-        queryset = Place.objects.filter(place_type=places_type_filter)
+        if places_type_filter:
+            queryset = Place.objects.filter(place_type=places_type_filter)
+        else:
+            queryset = Place.objects.all()
         return queryset
