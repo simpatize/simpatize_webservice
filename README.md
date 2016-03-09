@@ -45,6 +45,7 @@ $ paver runserver
 ```
 
 ## Heroku Deployment Environments
+* QA Environment: https://simpatize-webservice-qa.herokuapp.com/
 * Staging Environment: https://simpatize-webservice-staging.herokuapp.com/
 
 *OPTIONAL*: If you are using Mac and never ran virtualbox in your system, you will need to repair your disk (Open 'Disk Utility', select the disk and click on 'Repair Disk Permissions'). See more details on: https://forums.virtualbox.org/viewtopic.php?f=8&t=48224
