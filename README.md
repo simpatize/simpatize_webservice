@@ -1,6 +1,7 @@
 # Simpatize WebService
 
-[![Build Status](https://snap-ci.com/simpatize/simpatize_webservice/branch/master/build_image)](https://snap-ci.com/simpatize/simpatize_webservice/branch/master)
+
+[![Build Status](https://snap-ci.com/simpatize/simpatize_webservice/branch/master/build_image)](https://snap-ci.com/simpatize/simpatize_webservice/branch/master)  [![Stories in Ready](https://badge.waffle.io/simpatize/simpatize_webservice.svg?label=ready&title=Board (Ready to Dev))](http://waffle.io/simpatize/simpatize.github.io)
 
 ## Description
 TO-DO
