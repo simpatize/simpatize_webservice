@@ -7,5 +7,5 @@ djangorestframework==3.3.1
 factory-boy==2.6.1
 fake-factory==0.5.3
 psycopg2==2.8.6
-uWSGI==2.0.12
+uWSGI==2.0.19.1
 django-cors-headers==0.12
