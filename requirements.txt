@@ -8,4 +8,4 @@ factory-boy==3.0.1
 fake-factory==9999.9.9
 psycopg2==2.8.6
 uWSGI==2.0.19.1
-django-cors-headers==3.5.0
+django-cors-headers==3.7.0
