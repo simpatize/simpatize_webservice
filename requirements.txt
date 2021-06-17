@@ -6,6 +6,6 @@ django-filter==2.3.0
 djangorestframework==3.11.1
 factory-boy==3.0.1
 fake-factory==9999.9.9
-psycopg2==2.8.6
+psycopg2==2.9.1
 uWSGI==2.0.19.1
 django-cors-headers==3.5.0
